@@ -1,4 +1,9 @@
 package exercicio01;
 
-public class Operavel {
+public interface Operavel {
+
+    void depositar(double valor);
+
+    double sacar(double valor);
+
 }
